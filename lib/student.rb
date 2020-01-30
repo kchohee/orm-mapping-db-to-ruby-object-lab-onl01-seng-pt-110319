@@ -42,9 +42,9 @@ class Student
   end
   def self.all_students_in_grade_9
   end
-  def self.students_below_12th_g
+  def self.students_below_12th_grade
   end
-  def self.
+  def self.first_X_students_in_grade_10
   end
   def self.
   end
