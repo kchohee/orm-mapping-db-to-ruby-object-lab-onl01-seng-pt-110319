@@ -40,4 +40,12 @@ class Student
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
   end
+  def self.
+  end
+  def self.
+  end
+  def self.
+  end
+  def self.
+  end
 end
