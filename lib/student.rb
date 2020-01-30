@@ -20,7 +20,7 @@ class Student
   def self.find_by_name(name)
     sql = <<-SQL
       SELECT *
-      FROM songs
+      FROM students
       WHERE name = ?
       LIMIT 1
       SQL
@@ -30,6 +30,11 @@ class Student
     end
   end
   def self.all_students_in_grade_9
+    sql ==<<-SQL
+      SELECT *
+      FROM students
+      WHERE grade = 9 
+      sqlDB[:conn].execute
   end
   def self.students_below_12th_grade
   end
